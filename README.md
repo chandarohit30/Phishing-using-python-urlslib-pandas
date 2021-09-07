@@ -6,3 +6,26 @@ Main idea of this project is to implement an anti phishing algorithm using Machi
 •Random forest algorithm creates the forest with number of decision trees. High number of tree gives high detection accuracy.
 •Random Forest is a supervised machine learning algorithm that can be used to perform both regression and classification task in data mining.
 •It is an ensemble based technique that can be used to perform classification. It makes use of a number of classification trees (like decision trees) and then gives the final result
+
+Modules with output
+ 
+The proposed system consists of two sections:
+1.Features Extraction.
+2.Creating a model using Random forest tree algorithm.
+1.Features Extraction
+We have implemented python program to extract features from URL. Below are the features that we have extracted for detection of phishing URLs.
+3)Presence of IP address in URL.
+4)Presence of @ symbol in URL.
+3)  Number of dots in Hostname.
+4)  URL redirection.
+5)Number of slash’s in URL…
+ 
+ 
+
+        
+Modules with output
+ 
+2.Creating a model using Random forest tree algorithm:
+●Creating a model using Random forest tree algorithm. This algorithm works by creating a number of classification trees randomly.
+●These trees are created by making use of different samples from the same dataset and also they may use different types of features each time to create the trees. Thus, all the trees are created randomly by making use of different sub sets of the same dataset, and also the features are taken randomly for the creation of any tree.
+●Once the trees have been formed, we can do the classification by finding the results of e
